@@ -1,0 +1,37 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  S_1 
+REMARK    2  A    between atoms: C_3  and  S_1 
+REMARK    3  A    between atoms: C_14  and  C_4 
+REMARK    4  A    between atoms: O_17  and  C_11 
+ROOT
+ATOM      1  S   UNL d   1       0.000   0.163   0.000  0.00  0.00     0.274 S 
+ATOM      2  O   UNL d   1       0.705  -0.254   0.000  0.00  0.00    -0.199 OA
+ATOM      3  O   UNL d   1      -0.721  -0.238   0.000  0.00  0.00    -0.199 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  N   UNL d   1       0.013   0.984   0.000  0.00  0.00    -0.213 N 
+ATOM      5  C   UNL d   1       0.726   1.384   0.000  0.00  0.00     0.157 A 
+ATOM      6  N   UNL d   1       0.738   2.235   0.000  0.00  0.00    -0.226 NA
+ATOM      7  C   UNL d   1      -0.684   2.235   0.000  0.00  0.00     0.101 A 
+ATOM      8  C   UNL d   1      -0.701   1.409   0.000  0.00  0.00     0.112 A 
+ATOM      9  C   UNL d   1      -1.409   2.648   0.000  0.00  0.00     0.022 C 
+BRANCH   5  10
+ATOM     10  C   UNL d   1       1.439   0.963   0.000  0.00  0.00     0.038 C 
+ATOM     11  C   UNL d   1       2.143   1.384   0.000  0.00  0.00     0.003 C 
+ENDBRANCH   5  10
+ENDBRANCH   1   4
+BRANCH   1  12
+ATOM     12  C   UNL d   1      -0.008  -0.655   0.000  0.00  0.00     0.127 A 
+ATOM     13  C   UNL d   1       0.692  -1.076   0.000  0.00  0.00     0.022 A 
+ATOM     14  C   UNL d   1       0.692  -1.893   0.000  0.00  0.00     0.035 A 
+ATOM     15 BR   UNL d   1       1.405  -2.302   0.000  0.00  0.00    -0.049 Br
+ATOM     16  C   UNL d   1      -0.025  -2.302   0.000  0.00  0.00     0.009 A 
+ATOM     17  C   UNL d   1      -0.734  -1.881   0.000  0.00  0.00     0.025 A 
+ATOM     18  C   UNL d   1      -0.726  -1.063   0.000  0.00  0.00     0.106 A 
+BRANCH  18  19
+ATOM     19  O   UNL d   1      -1.439  -0.642   0.000  0.00  0.00    -0.327 OA
+ATOM     20  C   UNL d   1      -2.160  -1.042   0.000  0.00  0.00     0.181 C 
+ENDBRANCH  18  19
+ENDBRANCH   1  12
+TORSDOF 4

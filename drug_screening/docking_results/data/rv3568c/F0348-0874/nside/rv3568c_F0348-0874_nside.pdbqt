@@ -1,0 +1,39 @@
+MODEL 1
+REMARK VINA RESULT:      30.1      0.000      0.000
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_8  and  N_2 
+REMARK    2  A    between atoms: C_7  and  O_14 
+REMARK    3  A    between atoms: C_15  and  C_8 
+REMARK    4  A    between atoms: O_14  and  C_15 
+ROOT
+ATOM      1  C   UNL d   1      58.182  49.633  51.562  0.00  0.00     0.108 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL d   1      57.416  49.656  51.242  0.00  0.00    -0.285 N 
+ATOM      3  C   UNL d   1      56.653  49.694  51.675  0.00  0.00     0.183 A 
+ATOM      4  N   UNL d   1      56.035  49.706  51.048  0.00  0.00    -0.224 NA
+ATOM      5  C   UNL d   1      56.380  49.678  50.292  0.00  0.00     0.099 A 
+ATOM      6  C   UNL d   1      57.235  49.646  50.377  0.00  0.00     0.083 A 
+ATOM      7  C   UNL d   1      56.063  49.676  49.577  0.00  0.00     0.021 A 
+ATOM      8  C   UNL d   1      57.705  49.616  49.741  0.00  0.00     0.019 A 
+ATOM      9  C   UNL d   1      57.340  49.615  48.957  0.00  0.00     0.002 A 
+ATOM     10  C   UNL d   1      56.521  49.645  48.875  0.00  0.00     0.002 A 
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C   UNL d   1      58.840  49.706  51.091  0.00  0.00     0.142 C 
+BRANCH  11  12
+ATOM     12  O   UNL d   1      59.593  49.669  51.430  0.00  0.00    -0.304 OA
+BRANCH  12  13
+ATOM     13  C   UNL d   1      60.198  49.225  51.073  0.00  0.00     0.100 A 
+ATOM     14  C   UNL d   1      60.273  48.425  51.253  0.00  0.00     0.026 A 
+ATOM     15  C   UNL d   1      60.856  47.961  50.919  0.00  0.00     0.013 A 
+ATOM     16  C   UNL d   1      61.405  48.297  50.371  0.00  0.00     0.058 A 
+ATOM     17  C   UNL d   1      61.320  49.113  50.194  0.00  0.00     0.013 A 
+ATOM     18 CL   UNL d   1      62.005  47.810  50.029  0.00  0.00    -0.082 Cl
+ATOM     19  C   UNL d   1      60.728  49.563  50.539  0.00  0.00     0.026 A 
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 4
+ENDMDL

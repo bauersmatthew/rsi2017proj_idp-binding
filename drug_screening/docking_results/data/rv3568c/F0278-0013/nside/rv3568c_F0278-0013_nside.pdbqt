@@ -1,0 +1,43 @@
+MODEL 1
+REMARK VINA RESULT:      25.2      0.000      0.000
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_6  and  C_1 
+REMARK    2  A    between atoms: C_7  and  C_3 
+REMARK    3  A    between atoms: O_11  and  C_6 
+REMARK    4  A    between atoms: O_12  and  C_7 
+REMARK    5  A    between atoms: C_14  and  O_11 
+REMARK    6  A    between atoms: C_15  and  O_12 
+ROOT
+ATOM      1  C   UNL d   1      58.947  49.521  50.434  0.00  0.00     0.083 A 
+ATOM      2  C   UNL d   1      59.560  49.507  51.007  0.00  0.00     0.030 A 
+ATOM      3  C   UNL d   1      60.269  49.619  50.596  0.00  0.00     0.145 A 
+ATOM      4  N   UNL d   1      60.114  49.700  49.801  0.00  0.00    -0.240 NA
+ATOM      5  C   UNL d   1      59.290  49.638  49.702  0.00  0.00     0.087 A 
+ATOM      6  C   UNL d   1      59.459  49.404  51.803  0.00  0.00     0.002 C 
+ATOM      7  C   UNL d   1      58.870  49.685  48.991  0.00  0.00     0.021 C 
+ENDROOT
+BRANCH   1   8
+ATOM      8  C   UNL d   1      58.140  49.433  50.569  0.00  0.00     0.302 C 
+ATOM      9  O   UNL d   1      57.817  49.708  51.246  0.00  0.00    -0.259 OA
+BRANCH   8  10
+ATOM     10  O   UNL d   1      57.670  49.052  49.985  0.00  0.00    -0.271 OA
+BRANCH  10  11
+ATOM     11  C   UNL d   1      56.889  48.924  50.100  0.00  0.00     0.126 C 
+ATOM     12  C   UNL d   1      56.321  49.285  49.619  0.00  0.00     0.029 C 
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+BRANCH   3  13
+ATOM     13  C   UNL d   1      61.009  49.641  50.968  0.00  0.00     0.318 C 
+ATOM     14  O   UNL d   1      61.687  49.605  50.550  0.00  0.00    -0.257 OA
+BRANCH  13  15
+ATOM     15  O   UNL d   1      61.043  49.701  51.778  0.00  0.00    -0.270 OA
+BRANCH  15  16
+ATOM     16  C   UNL d   1      61.548  49.228  52.217  0.00  0.00     0.126 C 
+ATOM     17  C   UNL d   1      62.202  49.543  52.582  0.00  0.00     0.029 C 
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   3  13
+TORSDOF 6
+ENDMDL

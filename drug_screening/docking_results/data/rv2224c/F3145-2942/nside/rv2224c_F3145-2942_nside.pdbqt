@@ -1,0 +1,32 @@
+MODEL 1
+REMARK VINA RESULT:      25.8      0.000      0.000
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_6  and  CG_1 
+REMARK    2  A    between atoms: C_5  and  CA_8 
+REMARK    3  A    between atoms: CA_8  and  CB_6 
+ROOT
+ATOM      1  CG  TRP d   1     -51.816  25.302  33.321  0.00  0.00     0.022 A 
+ATOM      2  NE1 TRP d   1     -51.687  26.624  33.306  0.00  0.00    -0.244 NA
+ATOM      3  CD1 TRP d   1     -52.226  26.002  33.313  0.00  0.00     0.099 A 
+ATOM      4  CD2 TRP d   1     -51.005  25.480  33.320  0.00  0.00     0.019 A 
+ATOM      5  CE2 TRP d   1     -50.929  26.299  33.310  0.00  0.00     0.081 A 
+ATOM      6  CE3 TRP d   1     -50.330  25.001  33.325  0.00  0.00     0.002 A 
+ATOM      7  CZ2 TRP d   1     -50.179  26.643  33.307  0.00  0.00     0.019 A 
+ATOM      8  CZ3 TRP d   1     -49.583  25.343  33.322  0.00  0.00     0.000 A 
+ATOM      9  CH2 TRP d   1     -49.504  26.164  33.313  0.00  0.00     0.002 A 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TRP d   1     -52.160  24.549  33.329  0.00  0.00     0.029 C 
+BRANCH  10  11
+ATOM     11  CA  TRP d   1     -52.829  24.414  33.778  0.00  0.00     0.167 C 
+ATOM     12  N   TRP d   1     -53.255  25.051  34.084  0.00  0.00    -0.142 N 
+BRANCH  11  13
+ATOM     13  C   TRP d   1     -53.073  23.643  33.923  0.00  0.00     0.231 C 
+ATOM     14  O   TRP d   1     -53.016  23.328  34.674  0.00  0.00    -0.643 OA
+ATOM     15  OXT TRP d   1     -53.376  23.190  33.305  0.00  0.00    -0.643 OA
+ENDBRANCH  11  13
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 3
+ENDMDL

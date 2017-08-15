@@ -1,0 +1,38 @@
+MODEL 1
+REMARK VINA RESULT:      36.5      0.000      0.000
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_7  and  C_1 
+REMARK       I    between atoms: C_6  and  N_9 
+REMARK       I    between atoms: N_8  and  C_6 
+REMARK    2  A    between atoms: N_9  and  C_7 
+REMARK    3  A    between atoms: C_11  and  N_8 
+ROOT
+ATOM      1  C   UNL d   1      59.036  49.700  51.834  0.00  0.00     0.369 C 
+ATOM      2  N   UNL d   1      58.206  49.699  51.841  0.00  0.00    -0.191 NA
+ATOM      3  N   UNL d   1      59.446  49.702  51.123  0.00  0.00    -0.189 NA
+ATOM      4  O   UNL d   1      59.454  49.699  52.548  0.00  0.00    -0.242 OA
+ENDROOT
+BRANCH   3   5
+ATOM      5  C   UNL d   1      60.268  49.703  51.121  0.00  0.00     0.107 C 
+BRANCH   5   6
+ATOM      6  C   UNL d   1      60.683  48.991  50.993  0.00  0.00     0.058 A 
+ATOM      7  C   UNL d   1      61.312  48.884  50.467  0.00  0.00     0.104 A 
+ATOM      8  N   UNL d   1      61.558  48.094  50.516  0.00  0.00    -0.165 NA
+ATOM      9  C   UNL d   1      61.638  49.464  49.979  0.00  0.00     0.023 C 
+ATOM     10  N   UNL d   1      61.077  47.715  51.074  0.00  0.00    -0.225 N 
+ATOM     11  C   UNL d   1      60.539  48.266  51.368  0.00  0.00     0.104 A 
+ATOM     12  C   UNL d   1      61.129  46.929  51.295  0.00  0.00     0.121 C 
+ENDBRANCH   5   6
+ENDBRANCH   3   5
+BRANCH   2  13
+ATOM     13  C   UNL d   1      57.802  49.700  51.130  0.00  0.00     0.086 A 
+ATOM     14  C   UNL d   1      58.211  49.699  50.414  0.00  0.00     0.020 A 
+ATOM     15  C   UNL d   1      57.784  49.700  49.705  0.00  0.00     0.013 A 
+ATOM     16  C   UNL d   1      56.967  49.702  49.705  0.00  0.00     0.058 A 
+ATOM     17  C   UNL d   1      56.570  49.703  50.420  0.00  0.00     0.013 A 
+ATOM     18 CL   UNL d   1      56.544  49.703  48.996  0.00  0.00    -0.082 Cl
+ATOM     19  C   UNL d   1      56.970  49.702  51.132  0.00  0.00     0.020 A 
+ENDBRANCH   2  13
+TORSDOF 3
+ENDMDL

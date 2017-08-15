@@ -1,0 +1,40 @@
+MODEL 1
+REMARK VINA RESULT:      18.8      0.000      0.000
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_3  and  C_1 
+REMARK       I    between atoms: C_7  and  N_3 
+REMARK    2  A    between atoms: C_15  and  C_7 
+REMARK    3  A    between atoms: C_10  and  S_11 
+REMARK    4  A    between atoms: S_11  and  C_15 
+ROOT
+ATOM      1  C   UNL d   1     -57.080 -98.762 -44.705  0.00  0.00     0.182 A 
+ATOM      2  N   UNL d   1     -57.779 -98.774 -45.146  0.00  0.00    -0.283 N 
+ATOM      3  S   UNL d   1     -57.287 -98.755 -43.900  0.00  0.00    -0.048 SA
+ATOM      4  C   UNL d   1     -58.116 -98.763 -43.851  0.00  0.00     0.051 A 
+ATOM      5  C   UNL d   1     -58.420 -98.775 -44.619  0.00  0.00     0.072 A 
+ATOM      6  C   UNL d   1     -58.624 -98.761 -43.198  0.00  0.00     0.038 A 
+ATOM      7  C   UNL d   1     -59.231 -98.785 -44.733  0.00  0.00     0.020 A 
+ATOM      8  C   UNL d   1     -59.435 -98.771 -43.330  0.00  0.00     0.141 A 
+ATOM      9  C   UNL d   1     -59.738 -98.783 -44.098  0.00  0.00     0.031 A 
+ATOM     10  C   UNL d   1     -57.824 -98.784 -45.962  0.00  0.00     0.101 C 
+ATOM     11  F   UNL d   1     -59.956 -98.769 -42.684  0.00  0.00    -0.204 F 
+ENDROOT
+BRANCH   1  12
+ATOM     12  N   UNL d   1     -56.312 -98.758 -45.008  0.00  0.00    -0.183 NA
+ATOM     13  C   UNL d   1     -55.904 -99.324 -44.562  0.00  0.00     0.288 C 
+ATOM     14  O   UNL d   1     -56.298 -99.742 -43.964  0.00  0.00    -0.265 OA
+BRANCH  13  15
+ATOM     15  C   UNL d   1     -55.112 -99.477 -44.708  0.00  0.00     0.101 C 
+BRANCH  15  16
+ATOM     16  S   UNL d   1     -54.730-100.110 -44.334  0.00  0.00    -0.040 SA
+BRANCH  16  17
+ATOM     17  C   UNL d   1     -54.775-100.874 -44.658  0.00  0.00     0.226 C 
+ATOM     18  O   UNL d   1     -54.803-100.962 -45.477  0.00  0.00    -0.279 OA
+ATOM     19  C   UNL d   1     -54.792-101.526 -44.166  0.00  0.00     0.053 C 
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  12
+TORSDOF 4
+ENDMDL

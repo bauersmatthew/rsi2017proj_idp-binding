@@ -1,0 +1,35 @@
+MODEL 1
+REMARK VINA RESULT:      13.1      0.000      0.000
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_13  and  N_1 
+REMARK    2  A    between atoms: N_6  and  C_15 
+REMARK    3  A    between atoms: C_14  and  C_13 
+REMARK    4  A    between atoms: C_15  and  C_14 
+ROOT
+ATOM      1  C   UNL d   1     -57.640 -98.755 -44.874  0.00  0.00     0.087 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL d   1     -58.374 -98.757 -44.495  0.00  0.00    -0.248 N 
+ATOM      3  C   UNL d   1     -59.091 -98.758 -44.864  0.00  0.00     0.208 A 
+ATOM      4  N   UNL d   1     -59.659 -98.760 -44.295  0.00  0.00    -0.212 NA
+ATOM      5  S   UNL d   1     -59.324 -98.756 -45.594  0.00  0.00    -0.038 SA
+ATOM      6  C   UNL d   1     -59.297 -98.761 -43.581  0.00  0.00     0.162 A 
+ATOM      7  C   UNL d   1     -58.498 -98.759 -43.711  0.00  0.00     0.286 A 
+ATOM      8  O   UNL d   1     -58.206 -98.760 -43.118  0.00  0.00    -0.265 OA
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL d   1     -56.946 -98.826 -44.431  0.00  0.00     0.038 C 
+BRANCH   9  10
+ATOM     10  C   UNL d   1     -56.213 -98.853 -44.811  0.00  0.00     0.083 C 
+BRANCH  10  11
+ATOM     11  N   UNL d   1     -55.665 -99.434 -44.609  0.00  0.00    -0.285 N 
+ATOM     12  C   UNL d   1     -55.354-100.001 -45.116  0.00  0.00     0.183 A 
+ATOM     13  N   UNL d   1     -54.826-100.470 -44.679  0.00  0.00    -0.222 NA
+ATOM     14  C   UNL d   1     -54.813-100.193 -43.909  0.00  0.00     0.120 A 
+ATOM     15  C   UNL d   1     -55.332 -99.553 -43.865  0.00  0.00     0.102 A 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 4
+ENDMDL

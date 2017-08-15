@@ -1,0 +1,41 @@
+MODEL 1
+REMARK VINA RESULT:      -2.6      0.000      0.000
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_11  and  N_1 
+REMARK    2  A    between atoms: S_10  and  C_2 
+REMARK    3  A    between atoms: S_3  and  C_12 
+REMARK    4  A    between atoms: C_13  and  C_11 
+REMARK    5  A    between atoms: C_12  and  C_13 
+ROOT
+ATOM      1  N   UNL d   1     -41.329-122.113 -51.848  0.00  0.00    -0.295 N 
+ATOM      2  C   UNL d   1     -41.335-121.353 -51.539  0.00  0.00     0.121 A 
+ATOM      3  S   UNL d   1     -41.578-121.386 -50.754  0.00  0.00    -0.062 SA
+ATOM      4  C   UNL d   1     -41.570-122.628 -51.251  0.00  0.00     0.071 A 
+ATOM      5  C   UNL d   1     -41.726-122.174 -50.567  0.00  0.00     0.047 A 
+ATOM      6  C   UNL d   1     -41.670-123.447 -51.236  0.00  0.00     0.018 A 
+ATOM      7  C   UNL d   1     -41.978-122.549 -49.882  0.00  0.00     0.008 A 
+ATOM      8  C   UNL d   1     -41.925-123.817 -50.538  0.00  0.00     0.002 A 
+ATOM      9  C   UNL d   1     -42.076-123.375 -49.871  0.00  0.00     0.001 A 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C   UNL d   1     -41.123-122.320 -52.606  0.00  0.00     0.082 C 
+BRANCH  10  11
+ATOM     11  C   UNL d   1     -41.668-122.235 -53.230  0.00  0.00     0.034 C 
+BRANCH  11  12
+ATOM     12  C   UNL d   1     -41.449-122.410 -54.002  0.00  0.00     0.119 C 
+BRANCH  12  13
+ATOM     13  S   UNL d   1     -42.030-122.514 -54.580  0.00  0.00     0.140 S 
+ATOM     14  O   UNL d   1     -42.599-122.610 -55.148  0.00  0.00    -0.591 OA
+ATOM     15  O   UNL d   1     -42.126-123.297 -54.343  0.00  0.00    -0.591 OA
+ATOM     16  O   UNL d   1     -41.934-121.727 -54.818  0.00  0.00    -0.591 OA
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+BRANCH   2  17
+ATOM     17  S   UNL d   1     -41.132-120.669 -51.947  0.00  0.00    -0.089 SA
+ATOM     18  C   UNL d   1     -41.138-119.948 -51.573  0.00  0.00     0.076 C 
+ENDBRANCH   2  17
+TORSDOF 5
+ENDMDL

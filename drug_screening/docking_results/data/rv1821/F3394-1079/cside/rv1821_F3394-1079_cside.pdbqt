@@ -1,0 +1,42 @@
+MODEL 1
+REMARK VINA RESULT:      47.6      0.000      0.000
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  S_1 
+REMARK    2  A    between atoms: C_7  and  S_1 
+REMARK    3  A    between atoms: C_11  and  C_4 
+REMARK    4  A    between atoms: C_18  and  C_11 
+ROOT
+ATOM      1  N   UNL d   1     -57.903 -99.121 -44.484  0.00  0.00    -0.202 N 
+ATOM      2  C   UNL d   1     -58.192 -98.912 -45.224  0.00  0.00     0.218 A 
+ATOM      3  C   UNL d   1     -58.536 -99.093 -43.943  0.00  0.00     0.135 A 
+ATOM      4  N   UNL d   1     -59.000 -98.755 -45.145  0.00  0.00    -0.178 NA
+ATOM      5  C   UNL d   1     -59.201 -98.869 -44.355  0.00  0.00     0.298 A 
+ATOM      6  S   UNL d   1     -57.759 -98.864 -45.934  0.00  0.00    -0.037 SA
+ATOM      7  O   UNL d   1     -59.961 -98.772 -44.023  0.00  0.00    -0.264 OA
+ENDROOT
+BRANCH   1   8
+ATOM      8  S   UNL d   1     -57.107 -99.309 -44.391  0.00  0.00     0.273 S 
+ATOM      9  O   UNL d   1     -57.167 -99.869 -45.004  0.00  0.00    -0.200 OA
+ATOM     10  O   UNL d   1     -57.046 -98.755 -43.784  0.00  0.00    -0.200 OA
+BRANCH   8  11
+ATOM     11  C   UNL d   1     -56.310 -99.498 -44.298  0.00  0.00     0.104 A 
+ATOM     12  C   UNL d   1     -55.763 -99.270 -44.868  0.00  0.00     0.012 A 
+ATOM     13  C   UNL d   1     -54.962 -99.459 -44.775  0.00  0.00     0.001 A 
+ATOM     14  C   UNL d   1     -56.023 -98.846 -45.539  0.00  0.00     0.001 C 
+ATOM     15  C   UNL d   1     -54.713 -99.877 -44.111  0.00  0.00     0.000 A 
+ATOM     16  C   UNL d   1     -55.260-100.107 -43.538  0.00  0.00     0.001 A 
+ATOM     17  C   UNL d   1     -56.061 -99.917 -43.632  0.00  0.00     0.013 A 
+ATOM     18  C   UNL d   1     -55.005-100.530 -42.867  0.00  0.00     0.000 C 
+ENDBRANCH   8  11
+ENDBRANCH   1   8
+BRANCH   3  19
+ATOM     19  C   UNL d   1     -58.514 -99.257 -43.135  0.00  0.00     0.023 C 
+BRANCH  19  20
+ATOM     20  C   UNL d   1     -59.082 -98.938 -42.631  0.00  0.00     0.002 C 
+ATOM     21  C   UNL d   1     -59.832 -98.766 -42.919  0.00  0.00     0.000 C 
+ATOM     22  C   UNL d   1     -58.901 -98.793 -41.848  0.00  0.00     0.000 C 
+ENDBRANCH  19  20
+ENDBRANCH   3  19
+TORSDOF 4
+ENDMDL
